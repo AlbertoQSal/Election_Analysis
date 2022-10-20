@@ -24,7 +24,7 @@ with open(file_to_load) as election_data:
      file_reader = csv.reader(election_data)
       # Read and print the header row.
      headers = next(file_reader)
-     #print(headers)
+     print(headers)
      # Print each row in the CSV file.
      for row in file_reader:
           total_votes += 1
